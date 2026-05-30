@@ -1,4 +1,5 @@
 # vs directories
+build
 build/obj/
 vs2022/
 vs2026/

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmake -S /mnt/c/git-repo/mixr -B /mnt/c/git-repo/mixr/build)",
+      "Bash(cmake --build /mnt/c/git-repo/mixr/build)"
+    ]
+  }
+}
