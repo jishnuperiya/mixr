@@ -1,0 +1,38 @@
+04.06.2026
+----------
+
+make a new branch for just unit testing
+test driven develoment - it would be then a good evidence that the refactoring wont break anyhting
+
+1 merge cmake now
+2 cmake module for jsbsim wihtout installing packages
+3 unit Tests write doctest/rapidcheck
+4 refactoring the Architecture to add design Patterns
+
+notes
+
+cmake 
+------
+old way of doing it (before git)
+-> install Header and libraries and we manually manage it in the local machine
+
+when Project moved to git:
+  git repo become well known url
+they also have some prebuilt binaries with tags
+or get cmake to do it
+
+instead of FindJSB.cmkae -> try fetchcontent (used in rapidcheck in our pject for example)
+fetch Content ->url to repo + Version number
+cmake use curl - unpack - build in Cache
+ 
+---
+
+issues - Setup claude
+if Setup  mcv Server - assisnt for us
+PAT key
+Setup mcpserver
+
+/mcpserver 
+
+
+
